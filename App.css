@@ -1,0 +1,31 @@
+ 
+  .modal, .overlay {
+ 
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .modal-content {
+  
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    max-width: 90%;
+  }
+  .close-modal{
+    padding: 10px;
+    width: 150px;
+    text-align: center;      
+  display: block;    
+      
+  margin: 20px auto;        
+  font-weight: bold;        
+  }
